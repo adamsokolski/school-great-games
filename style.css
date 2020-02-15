@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(./img/fac4.jpg);
+}
+
+.main-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  word-spacing: 2px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left-box {
+  background-color: #ffffe6;
+  transform: rotate(-15deg);
+  border-radius: 40px;
+  border: 5px inset black;
+  padding: 15px;
+  width: 45%;
+  margin-bottom: 50px;
+}
+
+.right-box {
+  transform: rotate(15deg);
+  background-color: #e6ffff;
+  border-radius: 40px;
+  border: 5px outset black;
+  padding: 15px;
+  width: 45%;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px;
+}
+
+.image {
+  padding: 1%;
+  width: 30%;
+}
+
+.link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-box > a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.link-box > a:hover {
+  transition-duration: 0.5s;
+  text-decoration: underline;
+  color: rgb(137, 111, 167);
+}
